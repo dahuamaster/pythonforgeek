@@ -19,7 +19,7 @@ url = 'http://www.cnu.cc/discoveryPage/hot-0'
 # 下载图片
 # Requests 库封装复杂的接口，提供更人性化的 HTTP 客户端，但不直接提供下载文件的函数。
 # 需要通过为请求设置特殊参数 stream 来实现。当 stream 设为 True 时，
-# 上述请求只下载HTTP响应头，并保持连接处于打开状态，
+# 上述请求只下载HTTP响应头，并保持连接处于打开状态，git remote add origin https://github.com/dahuamaster/pythonforgeek.git
 # 直到访问 Response.content 属性时才开始下载响应主体内容
 
 
